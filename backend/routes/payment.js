@@ -32,8 +32,10 @@ router.post('/payment', async (req, res) => {
                     }
                 ],
                 mode: "payment",
-                success_url: 'http://localhost:3000/success',
-                cancel_url: 'http://localhost:3000/cancel',
+                // success_url: 'http://localhost:3000/success',
+                // cancel_url: 'http://localhost:3000/cancel',
+                success_url: 'https://mernfrontend-68zq.onrender.com//success',
+                cancel_url: 'https://mernfrontend-68zq.onrender.com//cancel',
                 customer_email: req.body.email,
             });
         }

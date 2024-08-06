@@ -41,12 +41,12 @@ const Banner = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-5'>
-            <h1 className='text-capitalize'>Transforming Digital Visions into Reality with WHITEHATSEO</h1>
+            <h1 className='text-capitalize'>Driving your digital success with WHITEHATSEO</h1>
             <p>At WHITEHATSEO, we specialize in transforming your digital presence into a powerful engine for growth. As a leading SEO and digital marketing agency, we are dedicated to driving results through cutting-edge strategies and innovative solutions. Our team of experts leverages the latest tools and techniques to boost your online visibility, attract targeted traffic, and convert visitors into loyal customers.
             </p>
             <div className="d-flex btn-hover">             
            <Link to='/contact'>
-             <button className="banner-btn">Book Now</button>
+             <button className="banner-btn">Contact us </button>
            </Link>
             </div>
           </div>
