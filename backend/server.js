@@ -10,9 +10,10 @@ const port = process.env.PORT || 4000;
 const cors = require('cors');
 const corsOptions = {
   // origin: 'http://localhost:3000',
-  origin: 'https://mernfrontend-68zq.onrender.com/',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  origin: 'https://mernfrontend-68zq.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
